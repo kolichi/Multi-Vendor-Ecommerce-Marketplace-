@@ -36,13 +36,13 @@ const Logo = ({ type }) => {
     else if (type === 'organic') {
         data = {
             url: '/home/organic',
-            img: 'static/img/logo.png',
+            img: 'static/img/logo-autopart.png',
         };
     }
     else {
         data = {
             url: '/',
-            img: '/static/img/logo.png',
+            img: 'static/img/logo-autopart.png',
         };
     }
     return (
