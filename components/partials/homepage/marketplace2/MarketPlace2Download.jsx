@@ -7,12 +7,12 @@ const MarketPlace2Download = () => (
                 <div className="row">
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
                         <div className="ps-block__thumbnail">
-                            <img src="/static/img/app.png" alt="TeraStore" />
+                            <img src="/static/img/app.png" alt="Tera-Store" />
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
                         <div className="ps-block__content">
-                            <h3>Download TeraStore App Now!</h3>
+                            <h3>Download Tera-Store App Now!</h3>
                             <p>
                                 Shopping fastly and easily more with our app. Get a link to download
                                 the app on your phone
@@ -32,10 +32,10 @@ const MarketPlace2Download = () => (
                             </form>
                             <p className="download-link">
                                 <a href="#">
-                                    <img src="/static/img/google-play.png" alt="TeraStore" />
+                                    <img src="/static/img/google-play.png" alt="Tera-Store" />
                                 </a>
                                 <a href="#">
-                                    <img src="/static/img/app-store.png" alt="TeraStore" />
+                                    <img src="/static/img/app-store.png" alt="Tera-Store" />
                                 </a>
                             </p>
                         </div>

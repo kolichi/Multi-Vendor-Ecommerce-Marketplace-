@@ -60,7 +60,7 @@ class FurnitureShopByRoom extends Component {
                                                 <a>
                                                     <img
                                                         src={room.imagePath}
-                                                        alt="TeraStore"
+                                                        alt="Tera-Store"
                                                     />
                                                 </a>
                                             </Link>

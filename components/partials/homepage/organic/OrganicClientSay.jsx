@@ -94,7 +94,7 @@ class OrganicClientSay extends Component {
                             className="ps-carousel outside">
                             <div className="ps-block--testimonial">
                                 <div className="ps-block__header">
-                                    <img src="/static/img/users/1.jpg" alt="TeraStore" />
+                                    <img src="/static/img/users/1.jpg" alt="Tera-Store" />
                                 </div>
                                 <div className="ps-block__content">
                                     <i className="icon-quote-close"></i>
@@ -112,7 +112,7 @@ class OrganicClientSay extends Component {
                             </div>
                             <div className="ps-block--testimonial">
                                 <div className="ps-block__header">
-                                    <img src="/static/img/users/2.png" alt="TeraStore" />
+                                    <img src="/static/img/users/2.png" alt="Tera-Store" />
                                 </div>
                                 <div className="ps-block__content">
                                     <i className="icon-quote-close"></i>
@@ -130,7 +130,7 @@ class OrganicClientSay extends Component {
                             </div>
                             <div className="ps-block--testimonial">
                                 <div className="ps-block__header">
-                                    <img src="/static/img/users/3.jpg" alt="TeraStore" />
+                                    <img src="/static/img/users/3.jpg" alt="Tera-Store" />
                                 </div>
                                 <div className="ps-block__content">
                                     <i className="icon-quote-close"></i>

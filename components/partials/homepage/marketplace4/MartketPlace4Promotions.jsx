@@ -8,14 +8,14 @@ const MartketPlace4Promotions = () => (
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
                     <Link href="/shop">
                         <a className="ps-collection">
-                            <img src="/static/img/promotions/home-6/1.jpg" alt="TeraStore" />
+                            <img src="/static/img/promotions/home-6/1.jpg" alt="Tera-Store" />
                         </a>
                     </Link>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
                     <Link href="/shop">
                         <a className="ps-collection">
-                            <img src="/static/img/promotions/home-6/2.jpg" alt="TeraStore" />
+                            <img src="/static/img/promotions/home-6/2.jpg" alt="Tera-Store" />
                         </a>
                     </Link>
                 </div>

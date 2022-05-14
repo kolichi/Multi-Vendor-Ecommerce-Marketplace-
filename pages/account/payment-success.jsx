@@ -51,10 +51,10 @@ const PaymentSuccessPage = () => {
                                                     any questions about your
                                                     purchase, email us at{' '}
                                                     <a
-                                                        href="mailto@contact@TeraStore.com"
+                                                        href="mailto@contact@Tera-Store.com"
                                                         className="ps-highlight">
                                                         <strong>
-                                                            contact@TeraStore.com
+                                                            contact@Tera-Store.com
                                                         </strong>
                                                     </a>
                                                 </p>

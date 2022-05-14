@@ -26,7 +26,7 @@ const MartketPlace2Banner = () => {
                                 <a>
                                     <img
                                         src="/static/img/slider/home-4/1.jpg"
-                                        alt="TeraStore"
+                                        alt="Tera-Store"
                                     />
                                 </a>
                             </Link>
@@ -37,7 +37,7 @@ const MartketPlace2Banner = () => {
                                 <a>
                                     <img
                                         src="/static/img/slider/home-4/2.jpg"
-                                        alt="TeraStore"
+                                        alt="Tera-Store"
                                     />
                                 </a>
                             </Link>
@@ -48,7 +48,7 @@ const MartketPlace2Banner = () => {
                                 <a>
                                     <img
                                         src="/static/img/slider/home-4/3.jpg"
-                                        alt="TeraStore"
+                                        alt="Tera-Store"
                                     />
                                 </a>
                             </Link>
@@ -60,7 +60,7 @@ const MartketPlace2Banner = () => {
                         <a className="ps-collection">
                             <img
                                 src="/static/img/slider/home-4/left.jpg"
-                                alt="TeraStore"
+                                alt="Tera-Store"
                             />
                         </a>
                     </Link>

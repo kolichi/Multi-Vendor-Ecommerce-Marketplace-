@@ -14,7 +14,7 @@ class HeaderMobileFurniture extends Component {
             <header className="header header--mobile furniture">
                 <div className="header__top">
                     <div className="header__left">
-                        <p>Welcome to TeraStore Online Shopping Store !</p>
+                        <p>Welcome to Tera-Store Online Shopping Store !</p>
                     </div>
                     <div className="header__right">
                         <ul className="navigation__extra">

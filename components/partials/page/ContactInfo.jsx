@@ -36,7 +36,7 @@ const ContactInfo = () => (
                             <h4>Work With Us</h4>
                             <p>
                                 <span>Send your CV to our email:</span>
-                                <a href="#">career@TeraStore.com</a>
+                                <a href="#">career@Tera-Store.com</a>
                             </p>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const ContactInfo = () => (
                         <div className="ps-block--contact-info">
                             <h4>Customer Service</h4>
                             <p>
-                                <a href="#">customercare@TeraStore.com</a>
+                                <a href="#">customercare@Tera-Store.com</a>
                                 <span>(+260) 953-5310-99</span>
                             </p>
                         </div>
@@ -53,7 +53,7 @@ const ContactInfo = () => (
                         <div className="ps-block--contact-info">
                             <h4>Media Relations</h4>
                             <p>
-                                <a href="#">media@TeraStore.com</a>
+                                <a href="#">media@Tera-Store.com</a>
                                 <span>(+260) 953-5310-99</span>
                             </p>
                         </div>
@@ -62,7 +62,7 @@ const ContactInfo = () => (
                         <div className="ps-block--contact-info">
                             <h4>Vendor Support</h4>
                             <p>
-                                <a href="#">vendorsupport@TeraStore.com</a>
+                                <a href="#">vendorsupport@Tera-Store.com</a>
                                 <span>(+260) 953-5310-99</span>
                             </p>
                         </div>

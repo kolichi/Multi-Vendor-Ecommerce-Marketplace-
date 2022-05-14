@@ -6,7 +6,7 @@ const FurniturePromotions2 = () => (
         <div className="container">
             <Link href="/shop">
                 <a className="ps-collection">
-                    <img src="/static/img/promotions/home-8/1.jpg" alt="TeraStore" />
+                    <img src="/static/img/promotions/home-8/1.jpg" alt="Tera-Store" />
                 </a>
             </Link>
         </div>

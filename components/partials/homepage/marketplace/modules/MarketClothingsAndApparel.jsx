@@ -86,19 +86,19 @@ const MarketClothingsAndApparel = ({ collectionSlug }) => {
                     <a>
                         <img
                             src="/static/img/slider/home-3/clothing-1.jpg"
-                            alt="TeraStore"
+                            alt="Tera-Store"
                         />
                     </a>
                     <a>
                         <img
                             src="/static/img/slider/home-3/clothing-2.jpg"
-                            alt="TeraStore"
+                            alt="Tera-Store"
                         />
                     </a>
                     <a>
                         <img
                             src="/static/img/slider/home-3/clothing-3.jpg"
-                            alt="TeraStore"
+                            alt="Tera-Store"
                         />
                     </a>
                 </Slider>

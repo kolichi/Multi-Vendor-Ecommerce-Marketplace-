@@ -14,7 +14,7 @@ const VendorBestFrees = () => (
                 </h5>
                 <div className="ps-section__numbers">
                     <figure>
-                        <h3>$0</h3>
+                        <h3>K0</h3>
                         <span>List Fee</span>
                     </figure>
                     <figure>
@@ -38,19 +38,19 @@ const VendorBestFrees = () => (
                     </figure>
                 </div>
                 <div className="ps-section__highlight">
-                    <img src="/static/img/icons/vendor-4.png" alt="TeraStore" />
+                    <img src="/static/img/icons/vendor-4.png" alt="Tera-Store" />
                     <figure>
                         <p>
                             We process payments with PayPal, an external payments platform that
                             allows you to process transactions with a variety of payment methods.
-                            Funds from PayPal sales on TeraStore will be deposited into your PayPal
+                            Funds from PayPal sales on Tera-Store will be deposited into your PayPal
                             account.
                         </p>
                     </figure>
                 </div>
                 <div className="ps-section__footer">
                     <p>
-                        Listing fees are billed for 0.20 USD, so if your bank’s currency is not USD,
+                        Listing fees are billed for 0.20 ZMK, so if your bank’s currency is not ZMK,
                         the amount in your currency may vary based on changes in the exchange rate.
                     </p>
                 </div>

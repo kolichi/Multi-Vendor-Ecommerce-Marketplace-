@@ -1,5 +1,5 @@
 /*
-* TeraStore - Multipurpose Marketplace React Ecommerce Template v2.2.0
+* Tera-Store - Multipurpose Marketplace React Ecommerce Template v2.2.0
 * Author: nouthemes
 * Homepage: https://themeforest.net/user/nouthemes/portfolio
 * Created at: 2019-11-15T08:00:00+07:00
@@ -15,7 +15,7 @@ const nextSettings = {
     },
     // Change your site title here
     env: {
-        title: 'TeraStore',
+        title: 'Tera-Store',
         titleDescription: 'Multipurpose Marketplace React Ecommerce Template',
     },
 };

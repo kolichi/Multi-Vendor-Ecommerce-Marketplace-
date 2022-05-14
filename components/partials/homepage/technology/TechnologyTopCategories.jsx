@@ -42,7 +42,7 @@ const TechnologyTopCategories = () => {
                                 <div className="ps-block__thumbnail">
                                     <img
                                         src={category.imagePath}
-                                        alt="TeraStore"
+                                        alt="Tera-Store"
                                     />
                                 </div>
                                 <div className="ps-block__content">

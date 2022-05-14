@@ -22,7 +22,7 @@ const HeaderMarketPlace4 = () => {
             <div className="header__top">
                 <div className="container">
                     <div className="header__left">
-                        <p>Welcome to TeraStore Online Shopping Store !</p>
+                        <p>Welcome to Tera-Store Online Shopping Store !</p>
                     </div>
                     <div className="header__right">
                         <ul className="header__top-links">

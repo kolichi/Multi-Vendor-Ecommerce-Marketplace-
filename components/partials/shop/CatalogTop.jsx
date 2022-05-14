@@ -77,7 +77,7 @@ const CatalogTop = () => (
                                     <div className="ps-block__thumbnail">
                                         <img
                                             src={category.thumbnail}
-                                            alt="TeraStore"
+                                            alt="Tera-Store"
                                         />
                                     </div>
                                     <div className="ps-block__content">

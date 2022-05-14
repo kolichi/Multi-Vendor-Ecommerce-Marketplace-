@@ -19,7 +19,7 @@ class MartketPlace4TopCategories extends Component {
                                 </Link>
                                 <img
                                     src="/static/img/categories/1.jpg"
-                                    alt="TeraStore"
+                                    alt="Tera-Store"
                                 />
 
                                 <p>Electronics</p>
@@ -32,7 +32,7 @@ class MartketPlace4TopCategories extends Component {
                                 </Link>
                                 <img
                                     src="/static/img/categories/2.jpg"
-                                    alt="TeraStore"
+                                    alt="Tera-Store"
                                 />
                                 <p>Clothings</p>
                             </div>
@@ -44,7 +44,7 @@ class MartketPlace4TopCategories extends Component {
                                 </Link>
                                 <img
                                     src="/static/img/categories/3.jpg"
-                                    alt="TeraStore"
+                                    alt="Tera-Store"
                                 />
                                 <p>Computers</p>
                             </div>
@@ -56,7 +56,7 @@ class MartketPlace4TopCategories extends Component {
                                 </Link>
                                 <img
                                     src="/static/img/categories/4.jpg"
-                                    alt="TeraStore"
+                                    alt="Tera-Store"
                                 />
                                 <p>Home & Kitchen</p>
                             </div>
@@ -68,7 +68,7 @@ class MartketPlace4TopCategories extends Component {
                                 </Link>
                                 <img
                                     src="/static/img/categories/5.jpg"
-                                    alt="TeraStore"
+                                    alt="Tera-Store"
                                 />
                                 <p>Health & Beauty</p>
                             </div>
@@ -80,7 +80,7 @@ class MartketPlace4TopCategories extends Component {
                                 </Link>
                                 <img
                                     src="/static/img/categories/6.jpg"
-                                    alt="TeraStore"
+                                    alt="Tera-Store"
                                 />
                                 <p>Health & Beauty</p>
                             </div>

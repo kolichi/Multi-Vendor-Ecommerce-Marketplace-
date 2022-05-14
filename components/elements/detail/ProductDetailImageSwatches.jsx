@@ -79,7 +79,7 @@ class ProductDetailImageSwatches extends Component {
                                                                     src={
                                                                         item.image
                                                                     }
-                                                                    alt="TeraStore"
+                                                                    alt="Tera-Store"
                                                                 />
                                                             </a>
                                                         </div>
@@ -109,7 +109,7 @@ class ProductDetailImageSwatches extends Component {
                                             <div className="item" key={item.id}>
                                                 <img
                                                     src={item.image}
-                                                    alt="TeraStore"
+                                                    alt="Tera-Store"
                                                 />
                                             </div>
                                         ))}
@@ -175,7 +175,7 @@ class ProductDetailImageSwatches extends Component {
                                             </span>
                                             <img
                                                 src={variant.image}
-                                                alt="TeraStore"
+                                                alt="Tera-Store"
                                             />
                                         </div>
                                     );

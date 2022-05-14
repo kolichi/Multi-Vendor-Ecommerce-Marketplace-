@@ -124,7 +124,7 @@ class MyAccount extends Component {
                             <figure className="ps-section__desc">
                                 <figcaption>Sign up today and you will be able to:</figcaption>
                                 <p>
-                                    TeraStore Buyer Protection has you covered from click to
+                                    Tera-Store Buyer Protection has you covered from click to
                                     delivery. Sign up or sign in and you will be able to:
                                 </p>
                                 <ul className="ps-list">
@@ -147,8 +147,8 @@ class MyAccount extends Component {
                                 <aside>
                                     <h5>A small gift for your first purchase</h5>
                                     <p>
-                                        TeraStore give $25 as a small gift for your first purchase.
-                                        Welcome to TeraStore!
+                                        Tera-Store give $25 as a small gift for your first purchase.
+                                        Welcome to Tera-Store!
                                     </p>
                                 </aside>
                             </div>

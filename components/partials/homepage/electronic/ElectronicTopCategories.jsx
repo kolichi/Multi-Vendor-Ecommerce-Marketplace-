@@ -64,7 +64,7 @@ class ElectronicTopCategories extends Component {
                             <div className="col-md-4 col-sm-6 col-12 " key={category.title}>
                                 <div className="ps-block--category-2">
                                     <div className="ps-block__thumbnail">
-                                        <img src={category.thumbnail} alt="TeraStore" />
+                                        <img src={category.thumbnail} alt="Tera-Store" />
                                     </div>
                                     <div className="ps-block__content">
                                         <h4>{category.title}</h4>

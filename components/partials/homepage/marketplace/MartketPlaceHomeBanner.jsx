@@ -26,7 +26,7 @@ const MarketPlaceHomeBanner = () => {
                     }}>
                     <img
                         src="/static/img/slider/home-3/home-banner/1.jpg"
-                        alt="TeraStore"
+                        alt="Tera-Store"
                     />
                     <div className="ps-banner__content">
                         <h5>Mega Sale Nov 2019</h5>
@@ -48,7 +48,7 @@ const MarketPlaceHomeBanner = () => {
                     }}>
                     <img
                         src="/static/img/slider/home-3/home-banner/2.jpg"
-                        alt="TeraStore"
+                        alt="Tera-Store"
                     />
                     <div className="ps-banner__content">
                         <h5>Mega Sale Nov 2017</h5>

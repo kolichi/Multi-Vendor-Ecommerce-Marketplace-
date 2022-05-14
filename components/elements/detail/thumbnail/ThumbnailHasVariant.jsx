@@ -97,7 +97,7 @@ class ThumbnailHasVariant extends Component {
                                         }>
                                         <img
                                             src={`${baseUrl}${variant.url}`}
-                                            alt="TeraStore-image"
+                                            alt="Tera-Store-image"
                                         />
                                     </a>
                                 </div>
@@ -119,7 +119,7 @@ class ThumbnailHasVariant extends Component {
                         <div className="item" key={variant.id}>
                             <img
                                 src={`${baseUrl}${variant.url}`}
-                                alt="TeraStore-image"
+                                alt="Tera-Store-image"
                             />
                         </div>
                     ))}

@@ -7,7 +7,7 @@ const Promotion = ({ link, image }) => {
         return (
             <Link href={link}>
                 <a className="ps-collection">
-                    <img src={`${baseUrl}${image.url}`} alt="TeraStore" />
+                    <img src={`${baseUrl}${image.url}`} alt="Tera-Store" />
                 </a>
             </Link>
         );
@@ -15,7 +15,7 @@ const Promotion = ({ link, image }) => {
         return (
             <Link href={link ? link : '/shop'}>
                 <a className="ps-collection">
-                    <img src="/static/img/not-found.jpg" alt="TeraStore" />
+                    <img src="/static/img/not-found.jpg" alt="Tera-Store" />
                 </a>
             </Link>
         );

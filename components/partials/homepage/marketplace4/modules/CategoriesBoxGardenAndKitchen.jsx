@@ -20,47 +20,47 @@ const CategoriesBoxClothings = () => (
         </div>
         <div className="ps-block__content">
             <div className="ps-block__banner">
-                <img src="/static/img/categories/kitchen/large.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/kitchen/large.jpg" alt="Tera-Store" />
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
-                <img src="/static/img/categories/kitchen/1.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/kitchen/1.jpg" alt="Tera-Store" />
                 <p>Furniture</p>
                 <span>2 Items</span>
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
-                <img src="/static/img/categories/kitchen/2.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/kitchen/2.jpg" alt="Tera-Store" />
                 <p>Decoration</p>
                 <span>2 Items</span>
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
-                <img src="/static/img/categories/kitchen/3.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/kitchen/3.jpg" alt="Tera-Store" />
                 <p>Utensil &amp; Gadget</p>
                 <span>4 Items</span>
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
-                <img src="/static/img/categories/kitchen/4.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/kitchen/4.jpg" alt="Tera-Store" />
                 <p>Cookware</p>
                 <span>5 Items</span>
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
-                <img src="/static/img/categories/kitchen/5.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/kitchen/5.jpg" alt="Tera-Store" />
                 <p>Powers And Hand Tools</p>
                 <span>10 Items</span>
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
-                <img src="/static/img/categories/kitchen/6.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/kitchen/6.jpg" alt="Tera-Store" />
                 <p>Garden Tools</p>
                 <span>2 Items</span>
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
-                <img src="/static/img/categories/kitchen/7.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/kitchen/7.jpg" alt="Tera-Store" />
                 <p>Home Improvement</p>
                 <span>3 Items</span>
             </div>

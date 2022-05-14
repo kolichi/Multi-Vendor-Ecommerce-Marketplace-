@@ -20,47 +20,47 @@ const CategoriesBoxClothings = () => (
         </div>
         <div className="ps-block__content">
             <div className="ps-block__banner">
-                <img src="/static/img/categories/clothing/large.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/clothing/large.jpg" alt="Tera-Store" />
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
-                <img src="/static/img/categories/clothing/1.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/clothing/1.jpg" alt="Tera-Store" />
                 <p>Womens</p>
                 <span>2 Items</span>
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
-                <img src="/static/img/categories/clothing/2.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/clothing/2.jpg" alt="Tera-Store" />
                 <p>Mens</p>
                 <span>2 Items</span>
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
-                <img src="/static/img/categories/clothing/3.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/clothing/3.jpg" alt="Tera-Store" />
                 <p>Shoes</p>
                 <span>4 Items</span>
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
-                <img src="/static/img/categories/clothing/4.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/clothing/4.jpg" alt="Tera-Store" />
                 <p>Bags</p>
                 <span>5 Items</span>
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
-                <img src="/static/img/categories/clothing/5.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/clothing/5.jpg" alt="Tera-Store" />
                 <p>Sunglasses</p>
                 <span>10 Items</span>
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
-                <img src="/static/img/categories/clothing/6.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/clothing/6.jpg" alt="Tera-Store" />
                 <p>Accessories</p>
                 <span>2 Items</span>
             </div>
             <div className="ps-block__item">
                 <a className="ps-block__overlay"></a>
-                <img src="/static/img/categories/clothing/7.jpg" alt="TeraStore" />
+                <img src="/static/img/categories/clothing/7.jpg" alt="Tera-Store" />
                 <p>Kid's Fashion</p>
                 <span>3 Items</span>
             </div>

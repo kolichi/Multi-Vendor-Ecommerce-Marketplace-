@@ -10,7 +10,7 @@ const FooterWidgets = () => (
                 <h3>0953531099</h3>
                 <p>
                     502 New Design Str, Melbourne, Australia <br />
-                    <a href="mailto:contact@TeraStore.co">contact@TeraStore.co</a>
+                    <a href="mailto:contact@Tera-Store.co">contact@Tera-Store.co</a>
                 </p>
                 <ul className="ps-list--social">
                     <li>

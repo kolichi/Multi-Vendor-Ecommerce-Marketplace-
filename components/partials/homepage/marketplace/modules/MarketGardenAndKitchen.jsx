@@ -86,19 +86,19 @@ const MarketGardenAndKitchen = ({ collectionSlug }) => {
                     <a>
                         <img
                             src="/static/img/slider/home-3/kitchen-1.jpg"
-                            alt="TeraStore"
+                            alt="Tera-Store"
                         />
                     </a>
                     <a>
                         <img
                             src="/static/img/slider/home-3/kitchen-2.jpg"
-                            alt="TeraStore"
+                            alt="Tera-Store"
                         />
                     </a>
                     <a>
                         <img
                             src="/static/img/slider/home-3/kitchen-3.jpg"
-                            alt="TeraStore"
+                            alt="Tera-Store"
                         />
                     </a>
                 </Slider>

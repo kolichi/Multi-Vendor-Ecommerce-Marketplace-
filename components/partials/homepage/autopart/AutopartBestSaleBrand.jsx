@@ -12,70 +12,70 @@ const TechnologyBestSaleBrands = () => (
                     <li>
                         <Link href="/shop">
                             <a>
-                                <img src="/static/img/brand/2-1.jpg" alt="TeraStore" />
+                                <img src="/static/img/brand/2-1.jpg" alt="Tera-Store" />
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/shop">
                             <a>
-                                <img src="/static/img/brand/2-2.jpg" alt="TeraStore" />
+                                <img src="/static/img/brand/2-2.jpg" alt="Tera-Store" />
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/shop">
                             <a>
-                                <img src="/static/img/brand/2-3.jpg" alt="TeraStore" />
+                                <img src="/static/img/brand/2-3.jpg" alt="Tera-Store" />
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/shop">
                             <a>
-                                <img src="/static/img/brand/2-4.jpg" alt="TeraStore" />
+                                <img src="/static/img/brand/2-4.jpg" alt="Tera-Store" />
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/shop">
                             <a>
-                                <img src="/static/img/brand/2-5.jpg" alt="TeraStore" />
+                                <img src="/static/img/brand/2-5.jpg" alt="Tera-Store" />
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/shop">
                             <a>
-                                <img src="/static/img/brand/2-6.jpg" alt="TeraStore" />
+                                <img src="/static/img/brand/2-6.jpg" alt="Tera-Store" />
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/shop">
                             <a>
-                                <img src="/static/img/brand/2-7.jpg" alt="TeraStore" />
+                                <img src="/static/img/brand/2-7.jpg" alt="Tera-Store" />
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/shop">
                             <a>
-                                <img src="/static/img/brand/2-8.jpg" alt="TeraStore" />
+                                <img src="/static/img/brand/2-8.jpg" alt="Tera-Store" />
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/shop">
                             <a>
-                                <img src="/static/img/brand/2-9.jpg" alt="TeraStore" />
+                                <img src="/static/img/brand/2-9.jpg" alt="Tera-Store" />
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href="/shop">
                             <a>
-                                <img src="/static/img/brand/2-10.jpg" alt="TeraStore" />
+                                <img src="/static/img/brand/2-10.jpg" alt="Tera-Store" />
                             </a>
                         </Link>
                     </li>
