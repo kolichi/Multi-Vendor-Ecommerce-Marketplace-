@@ -20,7 +20,7 @@ class HeaderMobile extends Component {
                         <ul className="navigation__extra">
                             <li>
                                 <Link href="/vendor/become-a-vendor">
-                                    <a>Sell on TeraStore</a>
+                                    <a>Sell on Tera-Store</a>
                                 </Link>
                             </li>
                             <li>
@@ -42,8 +42,8 @@ class HeaderMobile extends Component {
                         <Link href="/">
                             <a className="ps-logo">
                                 <img
-                                    src="/static/img/logo_light.png"
-                                    alt="TeraStore"
+                                    src="/static/img/logo.png"
+                                    alt="Tera-Store"
                                 />
                             </a>
                         </Link>

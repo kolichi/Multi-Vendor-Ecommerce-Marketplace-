@@ -29,7 +29,7 @@ function App({ Component, pageProps }) {
     return (
         <>
             <Head>
-                <title>TeraStore - ZU18054</title>
+                <title>Tera-Store - ZU18054</title>
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                 <meta
                     name="viewport"

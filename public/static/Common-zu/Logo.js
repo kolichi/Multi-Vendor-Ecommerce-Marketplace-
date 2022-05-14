@@ -5,7 +5,13 @@ const Logo = ({ type }) => {
     let data;
     if (type === 'autopart') {
         data = {
-            url: '/home/auto-part',
+            url: '/home/autopart',
+            img: 'img/logo-autopart.png',
+        };
+    }
+    else if (type === 'technology') {
+        data = {
+            url: '/home/technology',
             img: 'static/img/logo.png',
         };
     }
@@ -30,13 +36,13 @@ const Logo = ({ type }) => {
     else if (type === 'organic') {
         data = {
             url: '/home/organic',
-            img: 'static/img/logo.png',
+            img: 'static/img/logo-autopart.png',
         };
     }
     else {
         data = {
-            url: '/home/',
-            img: 'static/img/logo.png',
+            url: '/',
+            img: 'static/img/logo-autopart.png',
         };
     }
     return (
@@ -45,7 +51,6 @@ const Logo = ({ type }) => {
                 <img src={data.img} alt="" />
             </a>
         </Link>
-        
     );
 };
 

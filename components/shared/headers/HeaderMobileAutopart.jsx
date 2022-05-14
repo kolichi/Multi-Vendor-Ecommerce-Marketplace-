@@ -14,13 +14,13 @@ class HeaderMobileAutopart extends Component {
             <header className="header header--mobile autopart">
                 <div className="header__top">
                     <div className="header__left">
-                        <p>Welcome to TeraStore Online Shopping Store !</p>
+                        <p>Welcome to Tera-Store Online Shopping Store !</p>
                     </div>
                     <div className="header__right">
                         <ul className="navigation__extra">
                             <li>
                                 <Link href="/vendor/become-a-vendor">
-                                    <a>Sell on TeraStore</a>
+                                    <a>Sell on Tera-Store</a>
                                 </Link>
                             </li>
                             <li>
@@ -42,8 +42,8 @@ class HeaderMobileAutopart extends Component {
                         <Link href="/">
                             <a className="ps-logo">
                                 <img
-                                    src="/static/img/logo-autopart.png"
-                                    alt="TeraStore"
+                                    src="/static/img/logo.png"
+                                    alt="Tera-Store"
                                 />
                             </a>
                         </Link>

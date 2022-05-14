@@ -22,7 +22,7 @@ const HeaderMarketPlace = () => {
             <div className="header__top">
                 <div className="container">
                     <div className="header__left">
-                        <p>Welcome to TeraStore Online Shopping Store !</p>
+                        <p>Welcome to Tera-Store Online Shopping Store !</p>
                     </div>
                     <div className="header__right">
                         <ul className="header__top-links">
@@ -53,7 +53,7 @@ const HeaderMarketPlace = () => {
                             <a className="ps-logo">
                                 <img
                                     src="/static/img/logo.png"
-                                    alt="TeraStore"
+                                    alt="Tera-Store"
                                 />
                             </a>
                         </Link>
@@ -103,7 +103,7 @@ const HeaderMarketPlace = () => {
                         <div className="ps-block--header-hotline inline">
                             <p>
                                 <i className="icon-telephone"></i>Hotline:
-                                <strong> 1-800-234-5678</strong>
+                                <strong> +260-953531099</strong>
                             </p>
                         </div>
                     </div>

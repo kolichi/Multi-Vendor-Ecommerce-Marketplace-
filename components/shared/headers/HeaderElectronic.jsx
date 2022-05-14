@@ -80,8 +80,8 @@ const HeaderElectronic = () => {
                         <Link href="/home/electronic">
                             <a className="ps-logo">
                                 <img
-                                    src="/static/img/logo-electronic.png"
-                                    alt="TeraStore"
+                                    src="/static/img/logo.png"
+                                    alt="Tera-Store"
                                 />
                             </a>
                         </Link>

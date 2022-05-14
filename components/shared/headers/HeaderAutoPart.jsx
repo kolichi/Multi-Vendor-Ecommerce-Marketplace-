@@ -113,8 +113,8 @@ const HeaderAutoPart = () => {
                         <Link href="/home/auto-part">
                             <a className="ps-logo">
                                 <img
-                                    src="/static/img/logo-autopart.png"
-                                    alt="TeraStore"
+                                    src="/static/img/logo.png"
+                                    alt="Tera-Store"
                                 />
                             </a>
                         </Link>
@@ -142,7 +142,7 @@ const HeaderAutoPart = () => {
                                 <div className="ps-block__right">
                                     <p>
                                         Hotline
-                                        <strong>1-800-234-5678</strong>
+                                        <strong>+260953531099</strong>
                                     </p>
                                 </div>
                             </div>

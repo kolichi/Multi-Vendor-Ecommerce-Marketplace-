@@ -23,8 +23,8 @@ const HeaderFurniture = () => {
                         <Link href="/home/furniture">
                             <a className="ps-logo">
                                 <img
-                                    src="/static/img/logo-furniture.png"
-                                    alt="TeraStore"
+                                    src="/static/img/logo.png"
+                                    alt="Tera-Store"
                                 />
                             </a>
                         </Link>
@@ -61,7 +61,7 @@ const HeaderFurniture = () => {
                         <ul className="navigation__extra">
                             <li>
                                 <Link href="/page/blank">
-                                    <a>Sell on TeraStore</a>
+                                    <a>Sell on Tera-Store</a>
                                 </Link>
                             </li>
                             <li>

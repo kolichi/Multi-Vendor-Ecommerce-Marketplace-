@@ -34,8 +34,8 @@ const HeaderOrganic = () => {
                         <Link href="/home/organic">
                             <a className="ps-logo">
                                 <img
-                                    src="/static/img/logo-organic.png"
-                                    alt="TeraStore"
+                                    src="/static/img/logo.png"
+                                    alt="Tera-Store"
                                 />
                             </a>
                         </Link>
@@ -72,7 +72,7 @@ const HeaderOrganic = () => {
                         <div className="ps-block--header-hotline inline">
                             <p>
                                 <i className="icon-telephone"></i>Hotline:
-                                <strong> 1-800-234-5678</strong>
+                                <strong> +260-953531099</strong>
                             </p>
                         </div>
                     </div>

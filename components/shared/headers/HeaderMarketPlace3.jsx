@@ -36,8 +36,8 @@ const HeaderMarketPlace3 = () => {
                             <a className="ps-logo">
                                 q
                                 <img
-                                    src="/static/img/logo_light.png"
-                                    alt="TeraStore"
+                                    src="/static/img/logo.png"
+                                    alt="Tera-Store"
                                 />
                             </a>
                         </Link>
@@ -87,7 +87,7 @@ const HeaderMarketPlace3 = () => {
                         <ul className="navigation__extra">
                             <li>
                                 <Link href="/vendor/become-a-vendor">
-                                    <a>Sell on TeraStore</a>
+                                    <a>Sell on Tera-Store</a>
                                 </Link>
                             </li>
                             <li>

@@ -52,8 +52,8 @@ const HeaderMarketPlace4 = () => {
                         <Link href="/home/market-place-4">
                             <a className="ps-logo">
                                 <img
-                                    src="/static/img/logo_light.png"
-                                    alt="TeraStore"
+                                    src="/static/img/logo.png"
+                                    alt="Tera-Store"
                                 />
                             </a>
                         </Link>

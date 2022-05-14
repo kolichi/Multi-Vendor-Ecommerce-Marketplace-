@@ -64,7 +64,7 @@ const HeaderTechnology = () => {
                             SHOPPING CENTER
                             <strong className="ml-1">
                                 {' '}
-                                for all orders over $100
+                                for all orders over K100
                             </strong>
                         </p>
                     </div>
@@ -96,8 +96,8 @@ const HeaderTechnology = () => {
                         <Link href="/home/technology">
                             <a className="ps-logo">
                                 <img
-                                    src="/static/img/logo-technology.png"
-                                    alt="TeraStore"
+                                    src="/static/img/logo.png"
+                                    alt="Tera-Store"
                                 />
                             </a>
                         </Link>
