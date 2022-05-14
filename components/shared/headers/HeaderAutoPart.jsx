@@ -76,7 +76,7 @@ const HeaderAutoPart = () => {
                     <div className="header__left">
                         <p>
                             <strong>FREE SHIPPING</strong> for all orders over
-                            $100
+                            K100
                         </p>
                     </div>
                     <div className="header__right">

@@ -41,11 +41,11 @@ class CurrencyDropdown extends Component {
                             href="/"
                             onClick={e =>
                                 this.handleChangeCurrency(e, {
-                                    symbol: '$',
-                                    text: 'USD',
+                                    symbol: 'K',
+                                    text: 'ZMK',
                                 })
                             }>
-                            USD
+                            ZMK
                         </a>
                     </li>
                     <li>
