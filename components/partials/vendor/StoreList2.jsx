@@ -40,10 +40,10 @@ const StoreList2 = () => (
                                         <Rating/>
                                     </div>
                                     <p>
-                                        325 Orchard Str, <br /> New York, United States (US)
+                                        325 Levy-Avenue Str, <br /> Livingstone, Zambia (ZM)
                                     </p>
                                     <p>
-                                        <i className="icon-telephone"></i> (+053) 77-637-3300
+                                        <i className="icon-telephone"></i> (+260) 95-353-1099
                                     </p>
                                 </figure>
                             </div>
@@ -70,10 +70,10 @@ const StoreList2 = () => (
                                         <Rating/>
                                     </div>
                                     <p>
-                                        325 Orchard Str, <br /> New York, United States (US)
+                                        325 Orchard Str, <br /> Lusaka, Zambia (ZM)
                                     </p>
                                     <p>
-                                        <i className="icon-telephone"></i> (+053) 77-637-3300
+                                        <i className="icon-telephone"></i> (+260) 95-353-1099
                                     </p>
                                 </figure>
                             </div>
@@ -100,10 +100,10 @@ const StoreList2 = () => (
                                         <Rating/>
                                     </div>
                                     <p>
-                                        325 Orchard Str, <br /> New York, United States (US)
+                                        10884 Northrise Str, <br /> Ndola, Zambia (ZM)
                                     </p>
                                     <p>
-                                        <i className="icon-telephone"></i> (+053) 77-637-3300
+                                        <i className="icon-telephone"></i> (+260) 95-353-1099
                                     </p>
                                 </figure>
                             </div>
@@ -130,10 +130,10 @@ const StoreList2 = () => (
                                         <Rating/>
                                     </div>
                                     <p>
-                                        325 Orchard Str, <br /> New York, United States (US)
+                                        325 Kafue Str, <br /> Lusaka, Zambia (ZM)
                                     </p>
                                     <p>
-                                        <i className="icon-telephone"></i> (+053) 77-637-3300
+                                        <i className="icon-telephone"></i> (+260) 95-353-1099
                                     </p>
                                 </figure>
                             </div>

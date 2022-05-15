@@ -118,8 +118,8 @@ const StoreList = () => (
                                             <h4>GoPro</h4>
                                             <Rating />
                                             <p>
-                                                325 Orchard, Buenos Aires,
-                                                Formosa Argentina
+                                                422 CHoma , Hamududu rd,
+                                                parkview Livingstone
                                             </p>
                                             <ul className="ps-block__contact">
                                                 <li>
@@ -130,7 +130,7 @@ const StoreList = () => (
                                                 </li>
                                                 <li>
                                                     <i className="icon-telephone"></i>{' '}
-                                                    (+093) 77-637-3300
+                                                    (+260) 95-353-1099
                                                 </li>
                                             </ul>
                                             <div className="ps-block__inquiry">
@@ -163,11 +163,11 @@ const StoreList = () => (
                                                     Visit Store
                                                 </a>
                                             </div>
-                                            <h4>Robert's Store</h4>
+                                            <h4>MR Lwele's Store</h4>
                                             <Rating />
                                             <p>
-                                                325 Orchard, Buenos Aires,
-                                                Formosa Argentina
+                                                325 Levy, Parklands rd,
+                                                OLympia Lusaka
                                             </p>
                                             <ul className="ps-block__contact">
                                                 <li>
@@ -178,7 +178,7 @@ const StoreList = () => (
                                                 </li>
                                                 <li>
                                                     <i className="icon-telephone"></i>{' '}
-                                                    (+093) 77-637-3300
+                                                    (+260) 95-353-1099
                                                 </li>
                                             </ul>
                                             <div className="ps-block__inquiry">
@@ -214,8 +214,8 @@ const StoreList = () => (
                                             <h4>Youngshop</h4>
                                             <Rating />
                                             <p>
-                                                325 Orchard, Buenos Aires,
-                                                Formosa Argentina
+                                                325 Orchard, Ka GORO rd,
+                                                North-Rise Ndola
                                             </p>
                                             <ul className="ps-block__contact">
                                                 <li>
@@ -226,7 +226,7 @@ const StoreList = () => (
                                                 </li>
                                                 <li>
                                                     <i className="icon-telephone"></i>{' '}
-                                                    (+093) 77-637-3300
+                                                    (+260) 95-353-1099
                                                 </li>
                                             </ul>
                                             <div className="ps-block__inquiry">
@@ -262,8 +262,8 @@ const StoreList = () => (
                                             <h4>Global Offical</h4>
                                             <Rating />
                                             <p>
-                                                325 Orchard, Buenos Aires,
-                                                Formosa Argentina
+                                                325 Orchard, Great East rd,
+                                                Lusaka
                                             </p>
                                             <ul className="ps-block__contact">
                                                 <li>
@@ -274,7 +274,7 @@ const StoreList = () => (
                                                 </li>
                                                 <li>
                                                     <i className="icon-telephone"></i>{' '}
-                                                    (+093) 77-637-3300
+                                                    (+260) 95-353-1099
                                                 </li>
                                             </ul>
                                             <div className="ps-block__inquiry">

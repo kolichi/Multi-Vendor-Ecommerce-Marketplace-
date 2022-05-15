@@ -13,7 +13,7 @@ const FooterMarketPlace2 = () => (
                     </div>
                     <div className="ps-block__right">
                         <h4>Free Delivery</h4>
-                        <p>For all oders over $99</p>
+                        <p>For all oders Under k99</p>
                     </div>
                 </div>
                 <div className="ps-block__item">
