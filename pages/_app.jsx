@@ -40,11 +40,11 @@ function App({ Component, pageProps }) {
                 <meta name="author" content="nouthemes" />
                 <meta
                     name="keywords"
-                    content="Tera-Store, React, eCommerce, Template"
+                    content="Tera-Store, eCommerce"
                 />
                 <meta
                     name="description"
-                    content="Tera-Store - React eCommerce Template"
+                    content="Tera-Store - eCommerce "
                 />
             </Head>
             <CookiesProvider>

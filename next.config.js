@@ -1,6 +1,6 @@
 /*
-* Tera-Store - Multipurpose Marketplace React Ecommerce TZCAS PROJECT
-* Author: nouthemes
+* Tera-Store - Multipurpose Marketplace React Ecommerce ZCAS PROJECT
+* Author: Collins Matutu
 * */
 
 const nextSettings = {
