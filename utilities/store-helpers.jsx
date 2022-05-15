@@ -1,7 +1,5 @@
 /*
- * React template helpers
- * Author: Nouthemes
- * Developed: diaryforlife
+zu18054
  * */
 
 import React from 'react';
