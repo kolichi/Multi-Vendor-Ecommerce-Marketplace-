@@ -28,13 +28,13 @@ const ProductDealHot = ({ product }) => {
                         {product.is_sale === true ? (
                             <h4 className="ps-product__price sale">
                                 <del className="mr-2">
-                                    ${formatCurrency(product.sale_price)}
+                                    K{formatCurrency(product.sale_price)}
                                 </del>
-                                ${formatCurrency(product.price)}
+                                K{formatCurrency(product.price)}
                             </h4>
                         ) : (
                             <h4 className="ps-product__price">
-                                ${formatCurrency(product.price)}
+                                K{formatCurrency(product.price)}
                             </h4>
                         )}
                         <div className="ps-product__rating">

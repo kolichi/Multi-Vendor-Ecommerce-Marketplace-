@@ -224,55 +224,8 @@
                         ]
                     }
                 ]
-            },
-            {
-                "text": "Blogs",
-                "url": "/blog",
-                "current": "shop",
-                "extraClass": "menu-item-has-children has-mega-menu",
-                "subClass": "sub-menu",
-                "mega": "true",
-                "megaContent": [
-                    {
-                        "heading": "Blog Layout",
-                        "megaItems": [
-                            {
-                                "text": "Grid",
-                                "url": "/blog"
-                            },
-                            {
-                                "text": "Small Thumb",
-                                "url": "/blog/blog-small-thumbnail"
-                            },
-                            {
-                                "text": "Left Sidebar",
-                                "url": "/blog/blog-left-sidebar"
-                            },
-                            {
-                                "text": "Right Sidebar",
-                                "url": "/blog/blog-right-sidebar"
-                            }
-                        ]
-                    },
-                    {
-                        "heading": "Single Blog",
-                        "megaItems": [
-                            {
-                                "text": "Single 1",
-                                "url": "/post/default"
-                            },
-                            {
-                                "text": "Single 2",
-                                "url": "/post/detail-2"
-                            },
-                            {
-                                "text": "Single 3",
-                                "url": "/post/detail-3"
-                            }
-                        ]
-                    }
-                ]
             }
+       
         ]
     },
     "product_categories": [

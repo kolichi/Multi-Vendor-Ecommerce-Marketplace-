@@ -14,7 +14,7 @@ const ModulePaymentShipping = () => {
                 </figure>
                 <figure>
                     <small>Ship to</small>
-                    <p>2015 South Street, Midland, Texas</p>
+                    <p>2015 Kafue Street, Chilanga, Lusaka</p>
                     <Link href="/account/checkout">
                         <a>Change</a>
                     </Link>

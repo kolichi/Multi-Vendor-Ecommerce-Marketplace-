@@ -9,12 +9,12 @@ const ModuleDetailTopInformation = ({ product }) => {
     if (product.is_sale) {
         priceView = (
             <h4 className="ps-product__price sale">
-                <del className="mr-2">&{product.sale_price}</del>$
+                <del className="mr-2">&{product.sale_price}</del>K
                 {product.price}
             </h4>
         );
     } else {
-        priceView = <h4 className="ps-product__price">${product.price}</h4>;
+        priceView = <h4 className="ps-product__price">K{product.price}</h4>;
     }
     return (
         <header>

@@ -129,7 +129,7 @@ class ProductDetailImageSwatches extends Component {
                                 <span>(1 review)</span>
                             </div>
                         </div>
-                        <h4 className="ps-product__price">${product.price}</h4>
+                        <h4 className="ps-product__price">K{product.price}</h4>
                         <div className="ps-product__desc">
                             <p>
                                 Sold By:
