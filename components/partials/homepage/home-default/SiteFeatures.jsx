@@ -10,7 +10,7 @@ const SiteFeatures = () => (
                     </div>
                     <div className="ps-block__right">
                         <h4>Free Delivery</h4>
-                        <p>For all oders over $99</p>
+                        <p>For all oders Bellow K99</p>
                     </div>
                 </div>
                 <div className="ps-block__item">

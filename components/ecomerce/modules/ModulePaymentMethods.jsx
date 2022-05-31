@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Radio } from 'antd';
 import { useRouter } from 'next/router';
+import FlutterComp from './flutterHook.js';
 
 const ModulePaymentMethods = () => {
     const Router = useRouter();
@@ -23,60 +24,74 @@ const ModulePaymentMethods = () => {
                     <Radio.Group
                         onChange={(e) => handleChangeMethod(e)}
                         value={method}>
-                        <Radio value={1}>Visa / Master Card</Radio>
-                        <Radio value={2}>Paypal</Radio>
+                        <Radio value={1}>Visa / Master Card </Radio>
+                        <Radio value={2}> Mobile Money </Radio>
+                        <Radio value={3}>Paypal</Radio>
                     </Radio.Group>
                 </div>
                 <div className="ps-block__content">
-                    {method === 1 ? (
-                        <div className="ps-block__tab">
-                            <div className="form-group">
-                                <label>Card Number</label>
-                                <input type="text" className="form-control" />
-                            </div>
-                            <div className="form-group">
-                                <label>Card Holders</label>
-                                <input type="text" className="form-control" />
-                            </div>
-                            <div className="row">
-                                <div className="col-sm-4 col-4">
+                    {(function() {
+                        if(method === 1) {
+                            return (
+                                <div className="ps-block__tab">
                                     <div className="form-group">
-                                        <label>Expiration Date (MM/YY)</label>
-                                        <input
-                                            type="text"
-                                            className="form-control"
-                                            placeholder="01/21"
-                                        />
+                                        <label>Card Number</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+                                    <div className="form-group">
+                                        <label>Card Holders</label>
+                                        <input type="text" className="form-control" />
+                                    </div>
+                                    <div className="row">
+                                        <div className="col-sm-4 col-4">
+                                            <div className="form-group">
+                                                <label>Expiration Date (MM/YY)</label>
+                                                <input
+                                                    type="text"
+                                                    className="form-control"
+                                                    placeholder="01/21"
+                                                />
+                                            </div>
+                                        </div>
+                                        <div className=" col-sm-4 col-4">
+                                            <div className="form-group">
+                                                <label>CVV</label>
+                                                <input
+                                                    type="text"
+                                                    className="form-control"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="form-group">
+                                        <button
+                                        type='button'
+                                            className="ps-btn ps-btn--fullwidth"
+                                            onClick={(e) => handleSubmit(e)}>
+                                            Submit
+                                        </button>
                                     </div>
                                 </div>
-                                <div className=" col-sm-4 col-4">
-                                    <div className="form-group">
-                                        <label>CVV</label>
-                                        <input
-                                            type="text"
-                                            className="form-control"
-                                        />
-                                    </div>
+                            )
+                        } 
+
+                        if(method === 2) {
+                            return <FlutterComp />
+                        }
+
+                        if (method === 3) {
+                            return (
+                                <div className="ps-block__tab">
+                                    <a
+                                        className="ps-btn"
+                                        href="https://www.paypal.com/"
+                                        target="_blank">
+                                        Process with Paypal
+                                    </a>
                                 </div>
-                            </div>
-                            <div className="form-group">
-                                <button
-                                    className="ps-btn ps-btn--fullwidth"
-                                    onClick={(e) => handleSubmit(e)}>
-                                    Submit
-                                </button>
-                            </div>
-                        </div>
-                    ) : (
-                        <div className="ps-block__tab">
-                            <a
-                                className="ps-btn"
-                                href="https://www.paypal.com/"
-                                target="_blank">
-                                Process with Paypal
-                            </a>
-                        </div>
-                    )}
+                            );
+                        }
+                    })()}
                 </div>
             </div>
         </>
@@ -84,3 +99,49 @@ const ModulePaymentMethods = () => {
 };
 
 export default ModulePaymentMethods;
+
+(
+    <form >
+        <div className="ps-block__tab">
+            <div className="form-group">
+                <label>Card Number</label>
+                <input type="text" className="form-control" required/>
+            </div>
+            <div className="form-group">
+                <label>Card Holders</label>
+                <input type="text" className="form-control" required />
+            </div>
+            <div className="row">
+                <div className="col-sm-4 col-4">
+                    <div className="form-group">
+                        <label>Expiration Date (MM/YY)</label>
+                        <input
+                            type="text"
+                            className="form-control"
+                            placeholder="01/21"
+                            required
+                        />
+                    </div>
+                </div>
+                <div className=" col-sm-4 col-4">
+                    <div className="form-group">
+                        <label>CVV</label>
+                        <input  
+                            type="text"
+                            className="form-control"
+                            required
+                        />
+                    </div>
+                </div>
+            </div>
+            <div className="form-group">
+                <button
+                    type="submit"
+                    className="ps-btn ps-btn--fullwidth"
+                    onClick={(e) => handleSubmit(e)}>
+                    Submit
+                </button>
+            </div>
+        </div>
+    </form>
+)
