@@ -19,6 +19,10 @@ import '~/scss/technology.scss';
 import '~/scss/autopart.scss';
 import '~/scss/electronic.scss';
 import Head from 'next/head';
+
+
+
+
 function App({ Component, pageProps }) {
     useEffect(() => {
         setTimeout(function () {

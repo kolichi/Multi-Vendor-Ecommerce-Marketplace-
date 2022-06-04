@@ -24,7 +24,7 @@ const ModulePaymentShipping = () => {
             <div className="ps-block__panel">
                 <figure>
                     <small>International Shipping</small>
-                    <strong>$20.00</strong>
+                    <strong>K20.00</strong>
                 </figure>
             </div>
         </>

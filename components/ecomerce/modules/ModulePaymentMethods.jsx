@@ -1,10 +1,41 @@
 import React, { useState } from 'react';
-import { Radio } from 'antd';
+import { Radio, Modal } from 'antd';
+// import FlutterComp from './flutterHook.js';
+import Flutterwave from '~/pages/flutterwave';
+import inline from './inline flutter';
+
+import useScript from './hookinline';
 import { useRouter } from 'next/router';
-import FlutterComp from './flutterHook.js';
+
+export function makePayment() {
+    FlutterwaveCheckout({
+        public_key: 'FLWPUBK_TEST-SANDBOXDEMOKEY-X',
+        tx_ref: 'titanic-48981487343MDI0NzMx',
+        amount: 54600,
+        currency: 'ZMW',
+        payment_options: 'card, banktransfer, ussd',
+        redirect_url: 'https://glaciers.titanic.com/handle-flutterwave-payment',
+        meta: {
+            consumer_id: 23,
+            consumer_mac: '92a3-912ba-1192a',
+        },
+        customer: {
+            email: 'rose@unsinkableship.com',
+            phone_number: '08102909304',
+            name: 'Rose DeWitt Bukater',
+        },
+        customizations: {
+            title: 'The Titanic Store',
+            description: 'Payment for an awesome cruise',
+            logo:
+                'https://www.logolynx.com/images/logolynx/22/2239ca38f5505fbfce7e55bbc0604386.jpeg',
+        },
+    });
+}
 
 const ModulePaymentMethods = () => {
     const Router = useRouter();
+    const [isQuickView, setIsQuickView] = useState(false);
     const [method, setMethod] = useState(1);
 
     function handleChangeMethod(e) {
@@ -15,6 +46,16 @@ const ModulePaymentMethods = () => {
         e.preventDefault();
         Router.push('/account/payment-success');
     }
+
+    const flutterBuy = (e) => {
+        e.preventDefault();
+        setIsQuickView(true);
+    };
+
+    const handleHideQuickView = (e) => {
+        e.preventDefault();
+        setIsQuickView(false);
+    };
 
     return (
         <>
@@ -30,22 +71,30 @@ const ModulePaymentMethods = () => {
                     </Radio.Group>
                 </div>
                 <div className="ps-block__content">
-                    {(function() {
-                        if(method === 1) {
+                    {(function () {
+                        if (method === 1) {
                             return (
                                 <div className="ps-block__tab">
                                     <div className="form-group">
                                         <label>Card Number</label>
-                                        <input type="text" className="form-control" />
+                                        <input
+                                            type="text"
+                                            className="form-control"
+                                        />
                                     </div>
                                     <div className="form-group">
                                         <label>Card Holders</label>
-                                        <input type="text" className="form-control" />
+                                        <input
+                                            type="text"
+                                            className="form-control"
+                                        />
                                     </div>
                                     <div className="row">
                                         <div className="col-sm-4 col-4">
                                             <div className="form-group">
-                                                <label>Expiration Date (MM/YY)</label>
+                                                <label>
+                                                    Expiration Date (MM/YY)
+                                                </label>
                                                 <input
                                                     type="text"
                                                     className="form-control"
@@ -65,29 +114,71 @@ const ModulePaymentMethods = () => {
                                     </div>
                                     <div className="form-group">
                                         <button
-                                        type='button'
+                                            type="button"
                                             className="ps-btn ps-btn--fullwidth"
                                             onClick={(e) => handleSubmit(e)}>
                                             Submit
                                         </button>
                                     </div>
                                 </div>
-                            )
-                        } 
+                            );
+                        }
 
-                        if(method === 2) {
-                            return <FlutterComp />
+                        if (method === 2) {
+                            return (
+                                <>
+                                    <button type="button" onClick={flutterBuy}>
+                                        procced
+                                    </button>
+
+                                    <Modal
+                                        centered
+                                        footer={null}
+                                        width={1024}
+                                        onCancel={(e) => handleHideQuickView(e)}
+                                        visible={isQuickView}
+                                        closeIcon={
+                                            <i className="icon icon-cross2"></i>
+                                        }>
+                                        <h3>Quickview</h3>
+                                        <Flutterwave />
+                                    </Modal>
+                                </>
+
+                                // <div style="display:absolute">
+
+                                // <Flutterwave />
+                                // </div>
+                            );
                         }
 
                         if (method === 3) {
+                            //  const MyComponent = props => {
+                            //         useScript("https://checkout.flutterwave.com/v3.js");
+
+                            //         // rest of your component
+                            //       }
                             return (
                                 <div className="ps-block__tab">
                                     <a
-                                        className="ps-btn"
-                                        href="https://www.paypal.com/"
-                                        target="_blank">
+                                        type="button"
+                                        id="start-payment-button"
+                                        onclick={inline}
+                                        className="ps-btn">
                                         Process with Paypal
                                     </a>
+                                    <button
+                                        type="button"
+                                        id="start-payment-button"
+                                        onclick="makePayment()">
+                                        Pay Now
+                                    </button>
+                                    <button
+                                        type="button"
+                                        id="start-payment-button"
+                                        onclick={useScript}>
+                                        Pay Now
+                                    </button>
                                 </div>
                             );
                         }
@@ -99,49 +190,3 @@ const ModulePaymentMethods = () => {
 };
 
 export default ModulePaymentMethods;
-
-(
-    <form >
-        <div className="ps-block__tab">
-            <div className="form-group">
-                <label>Card Number</label>
-                <input type="text" className="form-control" required/>
-            </div>
-            <div className="form-group">
-                <label>Card Holders</label>
-                <input type="text" className="form-control" required />
-            </div>
-            <div className="row">
-                <div className="col-sm-4 col-4">
-                    <div className="form-group">
-                        <label>Expiration Date (MM/YY)</label>
-                        <input
-                            type="text"
-                            className="form-control"
-                            placeholder="01/21"
-                            required
-                        />
-                    </div>
-                </div>
-                <div className=" col-sm-4 col-4">
-                    <div className="form-group">
-                        <label>CVV</label>
-                        <input  
-                            type="text"
-                            className="form-control"
-                            required
-                        />
-                    </div>
-                </div>
-            </div>
-            <div className="form-group">
-                <button
-                    type="submit"
-                    className="ps-btn ps-btn--fullwidth"
-                    onClick={(e) => handleSubmit(e)}>
-                    Submit
-                </button>
-            </div>
-        </div>
-    </form>
-)
