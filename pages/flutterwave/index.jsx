@@ -4,15 +4,15 @@ import Script from 'next/script';
 
 const flutterwave = () => {
     const config = {
-        public_key: 'FLWPUBK-**************************-X',
+        public_key: 'FLWPUBK-eeb9247cb630ced9bbd42230f5ee2cc4-X',
         tx_ref: Date.now(),
         amount: 100,
         currency: 'ZMW',
         payment_options: 'card,mobilemoney,ussd',
         customer: {
-          email: 'user@gmail.com',
+          email: 'kolichitutu110@gmail.com',
           phonenumber: '07064586146',
-          name: 'joel ugwumadu',
+          name: 'TUTU',
         },
         customizations: {
           title: 'TERA-STORE',
@@ -23,7 +23,7 @@ const flutterwave = () => {
     
       const fwConfig = {
         ...config,
-        text: 'Pay with Flutterwave!',
+        text: 'PROCCED',
         callback: (response) => {
            console.log(response);
           closePaymentModal() // this will close the modal programmatically
@@ -33,8 +33,10 @@ const flutterwave = () => {
     
       return (
         <div className="App">
-         <h1>TERA-STORE MOBILE MONEY</h1>
-          <FlutterWaveButton {...fwConfig} />
+         <h3>You will recieve a onetime password from flutterwave via sms, input the code recieved and you will recieve 
+             a ussd prompt text,  thank you!
+         </h3>
+          <FlutterWaveButton className="ps-btn" {...fwConfig} />
         </div>
       );
 };

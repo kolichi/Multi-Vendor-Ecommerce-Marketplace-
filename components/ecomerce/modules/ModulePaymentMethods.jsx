@@ -127,7 +127,7 @@ const ModulePaymentMethods = () => {
                         if (method === 2) {
                             return (
                                 <>
-                                    <button type="button" onClick={flutterBuy}>
+                                    <button className="ps-btn" type="button" onClick={flutterBuy}>
                                         procced
                                     </button>
 
@@ -166,19 +166,8 @@ const ModulePaymentMethods = () => {
                                         onclick={inline}
                                         className="ps-btn">
                                         Process with Paypal
+
                                     </a>
-                                    <button
-                                        type="button"
-                                        id="start-payment-button"
-                                        onclick="makePayment()">
-                                        Pay Now
-                                    </button>
-                                    <button
-                                        type="button"
-                                        id="start-payment-button"
-                                        onclick={useScript}>
-                                        Pay Now
-                                    </button>
                                 </div>
                             );
                         }
