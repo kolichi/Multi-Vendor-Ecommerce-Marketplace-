@@ -140,7 +140,7 @@ const ModulePaymentMethods = () => {
                                         closeIcon={
                                             <i className="icon icon-cross2"></i>
                                         }>
-                                        <h3>Quickview</h3>
+                                            
                                         <Flutterwave />
                                     </Modal>
                                 </>

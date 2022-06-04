@@ -7,7 +7,7 @@ const flutterwave = () => {
         public_key: 'FLWPUBK-**************************-X',
         tx_ref: Date.now(),
         amount: 100,
-        currency: 'NGN',
+        currency: 'ZMW',
         payment_options: 'card,mobilemoney,ussd',
         customer: {
           email: 'user@gmail.com',
@@ -15,7 +15,7 @@ const flutterwave = () => {
           name: 'joel ugwumadu',
         },
         customizations: {
-          title: 'My store',
+          title: 'TERA-STORE',
           description: 'Payment for items in cart',
           logo: 'https://st2.depositphotos.com/4403291/7418/v/450/depositphotos_74189661-stock-illustration-online-shop-log.jpg',
         },
@@ -33,7 +33,7 @@ const flutterwave = () => {
     
       return (
         <div className="App">
-         <h1>Hello Test user</h1>
+         <h1>TERA-STORE MOBILE MONEY</h1>
           <FlutterWaveButton {...fwConfig} />
         </div>
       );
